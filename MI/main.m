@@ -2,7 +2,7 @@ clc
 clear
 close all
 %%biosig signal load
-filename= ['dataset\A09T.gdf'];
+filename = ['dataset\A09T.gdf'];
 [s,h] = sload(filename);
 fs    = 250;
 
