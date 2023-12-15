@@ -51,4 +51,4 @@ Acknowledgments and contributions from the following individuals:
 
 - Hamid Darvishi
 
-Feel free to contribute, report issues, or suggest improvements. Happy coding!
+Feel free to contribute, report issues, or suggest improvements.
