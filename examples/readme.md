@@ -52,7 +52,7 @@ Integrate the Motor Imagery Classifier into your existing MATLAB workflow by inc
 % ...
 
 % Include Motor Imagery Classifier functions
-addpath('path/to/motor-imagery-BCI');
+addpath('path/to/Motor-Imagery-BCI');
 
 % Modify the script to call relevant functions
 % ...
