@@ -45,10 +45,8 @@ Follow these steps to get started with the Motor Imagery Classifier:
 
 For detailed information on each function, refer to the in-code comments and documentation.
 
-## Contributors
-
-Acknowledgments and contributions from the following individuals:
+## Author
 
 - Hamid Darvishi
 
-Feel free to contribute, report issues, or suggest improvements.
+Please report any issues or problems to <Hamid.R.Darvishi@Hotmail.com>
