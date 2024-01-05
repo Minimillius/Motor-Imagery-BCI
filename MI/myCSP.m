@@ -12,13 +12,16 @@ end
 
 function R = computeCovarianceMatrix(data)
     numTrials = size(data, 3);
-    R = zeros(size(data, 1));
+    [channels, ~, trials] = size(data);  % Get the number of channels and trials
+    
+    R = zeros(channels);
 
     for i = 1:numTrials
-        x = data(:, :, i)';
+        x = data(:, :, i);
         x = bsxfun(@minus, x, mean(x, 2));
         R = R + (x * x') / trace((x * x'));
     end
 
-    R = R / numTrials;
+    R = R / trials;  % Corrected normalization
 end
+
